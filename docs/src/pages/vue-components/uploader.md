@@ -144,7 +144,7 @@ import { QUploaderBase } from 'quasar'
 export default {
   name: 'MyUploader',
 
-  mixins: [ UploaderBase ],
+  mixins: [ QUploaderBase ],
 
   computed: {
     isIdle () {
